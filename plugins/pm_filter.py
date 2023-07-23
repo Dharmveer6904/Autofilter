@@ -164,7 +164,7 @@ async def advantage_spoll_choker(bot, query):
             k = (movie, files, offset, total_results)
             await auto_filter(bot, query, k)
         else:
-            k = await query.message.edit('<b>🔰IF YOU DIDN'T FIND YOUR REQUESTED MOVIE OR If You didn't FIND Series then try this way:-\n Eg:- <i>Money heist S01 (For all episodes)📝\nOR\mMoney heist S01 E01 (If you need any particular episode)🛑</i>\nOR ELSE DM AT:-\nMovies_series_Requestbot.t.me<i>\n🚫NOTE🚫\nWait for admin reply for at least 12 Hours in bot🔰</i></b>')
+            k = await query.message.edit("<b>🔰IF YOU DIDN'T FIND YOUR REQUESTED MOVIE OR If You didn't FIND Series then try this way:-\n Eg:- <i>Money heist S01 (For all episodes)📝\nOR\mMoney heist S01 E01 (If you need any particular episode)🛑</i>\nOR ELSE DM AT:-\nMovies_series_Requestbot.t.me<i>\n🚫NOTE🚫\nWait for admin reply for at least 12 Hours in bot🔰</i></b>")
             await asyncio.sleep(10)
             await k.delete()
 
