@@ -247,7 +247,7 @@ async def start(client, message):
         chat_id=message.from_user.id,
         file_id=file_id,
         caption=f_caption,
-        reply_markup=InlineKeyboardMarkup( [ [ InlineKeyboardButton('sᴜʙsᴄʀɪʙᴇ', url='https://youtube.com/@GreyMattersYT') ] ] ),
+        reply_markup=InlineKeyboardMarkup( [ [ InlineKeyboardButton('JOIN US NOW 🎉', url='https://t.me/+JZ6_APgOJ-JiZmQ1') ] ] ),
         protect_content=True if pre == 'filep' else False,
         )
                     
