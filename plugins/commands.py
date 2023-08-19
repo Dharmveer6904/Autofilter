@@ -23,10 +23,10 @@ async def start(client, message):
     if message.chat.type in [enums.ChatType.GROUP, enums.ChatType.SUPERGROUP]:
         buttons = [
             [
-                InlineKeyboardButton('⚡UPDATES⚡', url='https://t.me/R_Mvzz')
+                InlineKeyboardButton('⚡UPDATES⚡', url='https://t.me/STREAMZ')
             ],
             [
-                InlineKeyboardButton('⚡BACKUP⚡', url=f"https://t.me/REQUEST_MOvizz"),
+                InlineKeyboardButton('⚡BACKUP⚡', url=f"https://t.me/+JZ6_APgOJ-JiZmQ1"),
             ],
             [
                 InlineKeyboardButton(text=DOWNLOAD_TEXT_NAME,url=DOWNLOAD_TEXT_URL)
@@ -47,8 +47,8 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('⚚ ΛᎠᎠ MΞ ϮԾ YԾUᏒ GᏒԾUᎮ ⚚', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('⚡BACKUP⚡', url=f"https://t.me/REQUEST_MOvizz"),
-            InlineKeyboardButton('⚡UPDATES⚡', url='https://t.me/R_Mvzz')
+            InlineKeyboardButton('⚡BACKUP⚡', url=f"https://t.me/+JZ6_APgOJ-JiZmQ1"),
+            InlineKeyboardButton('⚡UPDATES⚡', url='https://t.me/STREAMZ')
             ],[
             InlineKeyboardButton('♻️ HELP ♻️', callback_data='help'),
             InlineKeyboardButton('♻️ ABOUT ♻️', callback_data='about')
@@ -70,7 +70,7 @@ async def start(client, message):
         btn = [
             [
                 InlineKeyboardButton(
-                    "🔥 JOIN BACKUP🔥", url=f"https://t.me/REQUEST_MOvizz"
+                    "🔥 JOIN BACKUP🔥", url=f"https://t.me/STREAMZ"
                 )
             ]
         ]
@@ -93,8 +93,8 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('⚚ ΛᎠᎠ MΞ ϮԾ YԾUᏒ GᏒԾUᎮ ⚚', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('⚡BACKUP⚡', url=f"https://t.me/REQUEST_MOvizz"),
-            InlineKeyboardButton('⚡UPDATES⚡', url='https://t.me/R_Mvzz')
+            InlineKeyboardButton('⚡BACKUP⚡', url=f"https://t.me/+JZ6_APgOJ-JiZmQ1"),
+            InlineKeyboardButton('⚡UPDATES⚡', url='https://t.me/STREAMZ')
             ],[
             InlineKeyboardButton('♻️ HELP ♻️', callback_data='help'),
             InlineKeyboardButton('♻️ ABOUT ♻️', callback_data='about')
