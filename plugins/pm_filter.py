@@ -167,7 +167,7 @@ async def advantage_spoll_choker(bot, query):
             k = (movie, files, offset, total_results)
             await auto_filter(bot, query, k)
         else:
-            k = await query.message.edit("<b>🔰IF YOU DIDN'T FIND YOUR REQUESTED MOVIE OR If You didn't FIND Series then try this way:-\n Eg:- <i>Money heist S01 (For all episodes)📝\nOR\mMoney heist S01 E01 (If you need any particular episode)🛑</i>\nOR ELSE DM AT:-\nMovies_series_Requestbot.t.me<i>\n🚫NOTE🚫\nWait for admin reply for at least 12 Hours in bot🔰</i></b>")
+            k = await query.message.edit("<b>🔰IF YOU DIDN'T FIND YOUR REQUESTED MOVIE OR If You didn't FIND Series then DM AT:-\n Streamz_Admin_Robot.t.me</b>")
             await asyncio.sleep(10)
             await k.delete()
 
@@ -437,8 +437,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
             InlineKeyboardButton('⚚ ΛᎠᎠ MΞ ϮԾ YԾUᏒ GᏒԾUᎮ ⚚', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
         ], [
-            InlineKeyboardButton('⚡BACKUP⚡', url=f"https://t.me/REQUEST_MOvizz"),
-            InlineKeyboardButton('⚡UPDATES⚡', url='https://t.me/R_Mvzz')
+            InlineKeyboardButton('⚡BACKUP⚡', url=f"https://t.me/+JZ6_APgOJ-JiZmQ1"),
+            InlineKeyboardButton('⚡UPDATES⚡', url='https://t.me/STREAMZ')
         ], [
             InlineKeyboardButton('♻️ HELP ♻️', callback_data='help'),
             InlineKeyboardButton('♻️ ABOUT ♻️', callback_data='about')
@@ -690,7 +690,7 @@ async def auto_filter(client, msg, spoll=False):
 
     btn.insert(0,
         [
-            InlineKeyboardButton(text="⚡HOW TO DOWNLOAD⚡", url='https://telegram.me/Movies_web0')
+            InlineKeyboardButton(text="⚡HOW TO DOWNLOAD⚡", url='https://telegram.me/STREAMZ')
         ]
     )
 
