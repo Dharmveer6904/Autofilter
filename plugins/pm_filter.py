@@ -108,7 +108,7 @@ async def next_page(bot, query):
 
     btn.insert(0,
         [
-            InlineKeyboardButton(text="⚡HOW TO DOWNLOAD⚡", url='https://telegram.me/Movies_web0')
+            InlineKeyboardButton(text="⚡HOW TO DOWNLOAD⚡", url='https://t.me/How_To_DOWNLOAD_2')
         ]
     )
 
@@ -435,7 +435,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.answer()
     elif query.data == "start":
         buttons = [[
-            InlineKeyboardButton('⚚ ΛᎠᎠ MΞ ϮԾ YԾUᏒ GᏒԾUᎮ ⚚', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+            InlineKeyboardButton(' ΛᎠᎠ MΞ ϮԾ YԾUᏒ GᏒԾUᎮ ', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
         ], [
             InlineKeyboardButton('⚡BACKUP⚡', url=f"https://t.me/+JZ6_APgOJ-JiZmQ1"),
             InlineKeyboardButton('⚡UPDATES⚡', url='https://t.me/STREAMZ')
@@ -690,7 +690,7 @@ async def auto_filter(client, msg, spoll=False):
 
     btn.insert(0,
         [
-            InlineKeyboardButton(text="⚡HOW TO DOWNLOAD⚡", url='https://telegram.me/STREAMZ')
+            InlineKeyboardButton(text="⚡HOW TO DOWNLOAD⚡", url='https://t.me/How_To_DOWNLOAD_2')
         ]
     )
 
